@@ -20,3 +20,4 @@ console.log(myInfo.name);
 // B1: Chạy lệnh: git add . để thêm những file vừa cập nhật
 // B2: git commit -m "Giải thích cho những thay đổi vừa rồi"
 // B3: git push
+// git pun để rút về
