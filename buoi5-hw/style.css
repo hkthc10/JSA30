@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#image {
+    margin-bottom: 30px;
+}
+
+#image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+    height: auto;
+}
+
+.information {
+    padding-left: 20px;
+}
+
+.comment {
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+#comment-container {
+    margin-left: 20px
+}
+
+form input {
+    padding: 5px 7px;
+    width: 80%;
+}
+
+form button {
+    padding: 7px 10px;
+    width: 120px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(177, 255, 255);
+}
