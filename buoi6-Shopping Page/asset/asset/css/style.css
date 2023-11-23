@@ -42,3 +42,26 @@ header {
 .nav .nav-item:hover .nav-link {
     color: aquamarine;
 }
+
+.account-box .function {
+    text-decoration: none;
+    padding: 15px 10px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.account-box .function-b:hover .function {
+    color: aquamarine;
+}
+
+.bg-footer {
+    width: auto;
+    padding: 100px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.example {
+    color: white;
+}

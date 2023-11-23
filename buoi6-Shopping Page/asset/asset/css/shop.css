@@ -1,9 +1,11 @@
 .product-container {
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .product-item {
     width: 20%;
+    margin: 10px 20px 10px 20px;
 }
 
 .product-item img {
