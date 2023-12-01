@@ -1,0 +1,117 @@
+/* Lưu style của các phần chung: navbar, footer */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.wrapper {
+    background-color: rgb(30, 30, 60);
+}
+
+/* nav */
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* flex */
+.flexing {
+    display: flex;
+}
+
+header {
+    box-shadow: rgba(97, 97, 113, 0.2) 0px 7px 29px 0px;
+    padding: 10px 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+
+}
+
+h1 {
+    color: #ccc;
+}
+
+.header-content {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    list-style: none;
+    
+}
+
+.nav .nav-item .nav-link {
+    text-decoration: none;
+    padding: 15px 10px;
+    color: rgb(255, 251, 251);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.nav .nav-item:hover .nav-link {
+    color: rgb(35, 54, 199);
+}
+
+.account-box {
+    color: white;
+    font-size: 20px;
+}
+
+.account-box .function {
+    text-decoration: none;
+    padding: 15px 10px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.account-box .function-b:hover .function {
+    color: rgb(35, 54, 199);
+}
+
+.bg-footer {
+    width: auto;
+    padding: 100px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.example {
+    color: white;
+}
+
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 12px;
+  }
+
+  .game-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-item {
+    width: 20%;
+    margin: 40px 20px 0px 20px;
+    align-content: center;
+    color: white;
+}
+
+.game-item img {
+    max-width: 100%;
+    object-fit: fill;
+}
+
