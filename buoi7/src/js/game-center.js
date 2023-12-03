@@ -50,7 +50,7 @@ function renderGameList(listGame) {
       htmls += `
         <div class="game-item">
           <img src=${listGame[i].image}>
-          <h3>${listGame[i].name}</h3>
+          <h2>${listGame[i].name}</h2>
         </div>
       `
     }
